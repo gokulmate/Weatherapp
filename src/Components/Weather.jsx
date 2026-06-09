@@ -65,7 +65,7 @@ setWeatherIcon(data.weather[0].icon);
       </div>
       {/*Temprature & cityname*/}
       <h1 className="text-5xl font-bold">{loading?"loading...":Temprature!==null?`${Temprature}°C`:"__"}</h1>
-      <h2 className="text-3xl font-semibold">{cityName || "type to check teperature"}</h2>
+      <h2 className="text-3xl font-semibold">{cityName || "type to check temprature "}</h2>
       {/* Humadity & wind speed */}
       <div className="w-full max-w-md mt-8 flex flex-row items-center justify-around md:items start px-4">
         <div className="flex flex-col items-center gap-1">
